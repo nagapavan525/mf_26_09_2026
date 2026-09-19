@@ -82,3 +82,4 @@ jobs:
           git add week_3_mls/deployment/best_machine_failure_model_v1.joblib
           git commit -m "Add trained model [skip ci]" || echo "No changes to commit"
           git push
+          sleep 120
