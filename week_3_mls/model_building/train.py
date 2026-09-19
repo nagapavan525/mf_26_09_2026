@@ -11,6 +11,7 @@ from sklearn.metrics import classification_report
 import joblib
 import mlflow
 from pyngrok import ngrok
+import time
 
 
 # public_url = ngrok.connect(5000).public_url
@@ -125,3 +126,4 @@ with mlflow.start_run():
     joblib.dump(best_model, model_path)
     mlflow.log_artifact(model_path, artifact_path="model")
     print(f"Model saved to {model_path}")
+    time.sleep(180)
