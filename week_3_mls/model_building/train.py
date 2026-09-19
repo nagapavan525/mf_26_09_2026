@@ -10,7 +10,7 @@ from sklearn.metrics import classification_report
 # for model serialization
 import joblib
 import mlflow
-# from pyngrok import ngrok
+from pyngrok import ngrok
 
 
 # public_url = ngrok.connect(5000).public_url
