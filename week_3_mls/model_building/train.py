@@ -22,7 +22,7 @@ from pyngrok import ngrok
 # Set the name for the experiment
 # mlflow.set_experiment("MLOps_experiment")
 
-ngrok.set_auth_token("3JXChYBymErrClRhCF0cnjmClqA_3NLx7wYda2hzRV2kDi3r1")
+ngrok.set_auth_token("3JXHuAvsY8l6ZVFp0fpVT1zOJpR_3RmcHhkfocce8u3Qy7Txr")
 
 # Start MLflow UI on port 5000 => mlflow ui --port 5000
 # process = subprocess.Popen(["mlflow", "ui", "--port", "5000"])
